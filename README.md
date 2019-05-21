@@ -2,7 +2,7 @@
 
 This is a contacts management app which allows you to edit, add and remove a contact
 
-# run the app
+# setup
 
 To run the app you need to open Visual Studio code go into view > Terminal and enter the following 
 
