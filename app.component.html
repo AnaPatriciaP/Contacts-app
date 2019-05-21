@@ -1,0 +1,147 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<html >
+
+<div style="text-align:center"> <!--This is to allign my title in the center-->
+    <!--This is the format style CSS of my table which I have added a border 
+        and a hover when the mouse goes over the elements on the table-->
+    <style>
+    
+        table,th,td { 
+        border: 0.5px solid black; 
+        border-collapse: collapse
+        }
+        tr:hover {background-color: rgb(192, 191, 191)}
+
+    </style>
+
+    <h1>Contacts Management App</h1> 
+</div>
+
+<!--These are paragraphs to describe how my application work-->
+<p>To edit a contact just click on top of the item you want to edit</p>
+<p>To add a contact just begin to enter the details below</p>
+<p>To delete a contact just begin by double clicking on the details you want to delete</p>
+
+<h2>Contacts are displayed below: </h2>
+
+<body>
+    <!--This is an element <table> to define a table with width of 100%-->
+    <table style="width:100%"> 
+        <tr>
+            <!--This is an element <th> to define the tables headings-->
+        <th>Name</th> 
+        <th>email</th>
+        <th>Location</th>
+        <th>primary</th>
+        </tr>
+        <tr>
+            <!--contenteditable="true" is to allow the items in the cells to be edited-->
+        <td contenteditable="true">Steve Wozniak</td> 
+        <td contenteditable="true">woz@apple.com</td>
+        <td contenteditable="true">United States</td>
+        <td contenteditable="true">718-886-5540</td>
+        </tr>
+        <tr>
+            <!--contenteditable="true" is to allow the items in the cells to be edited-->
+            <td contenteditable="true">Linus Torvalds</td>
+            <td contenteditable="true">linus@linux.com</td>
+            <td contenteditable="true">Finland</td>
+            <td contenteditable="true">+358 9 568 042</td>
+        </tr>
+        <tr>
+            <!--contenteditable="true" is to allow the items in the cells to be edited-->
+            <td contenteditable="true">Bill Gates</td>
+            <td contenteditable="true">bill@microsoft.com</td>
+            <td contenteditable="true">United States</td>
+            <td contenteditable="true">4841698514</td>
+        </tr>
+        <tr>
+            <!--contenteditable="true" is to allow the items in the cells to be edited-->
+            <td contenteditable="true">Richard Stallman</td>
+            <td contenteditable="true">richard@fsf.org</td>
+            <td contenteditable="true">United States</td>
+            <td contenteditable="true">664 613 7896</td>
+        </tr>
+        <tr>
+            <!--contenteditable="true" is to allow the items in the cells to be edited-->
+            <td contenteditable="true">Ada Lovelace</td>
+            <td contenteditable="true">ada@lovelace.co.uk</td>
+            <td contenteditable="true">United Kingdom</td>
+            <td contenteditable="true">02394 786236</td>
+        </tr>
+        <tr>
+            <!--contenteditable="true" is to allow the items in the cells to be edited-->
+            <td contenteditable="true">Alan Turing</td>
+            <td contenteditable="true">alan@turingtest.org.uk</td>
+            <td contenteditable="true">United Kingdom</td>
+            <td contenteditable="true">+44796 37829368</td>
+        </tr>
+        <tr>
+            <!--contenteditable="true" is to allow the items in the cells to be edited-->
+            <td contenteditable="true">Charles Babbage</td>
+            <td contenteditable="true">charles@diffengine.com</td>
+            <td contenteditable="true">United Kingdom</td>
+            <td contenteditable="true">+442392343478</td>
+        </tr>
+        <tr>
+            <!--contenteditable="true" is to allow the items in the cells to be edited-->
+            <td contenteditable="true">Dennis Ritchie</td>
+            <td contenteditable="true">dennis@cprogramming.com</td>
+            <td contenteditable="true">United States</td>
+            <td contenteditable="true">012-589-1651</td>
+        </tr>
+        <tr>
+            <!--contenteditable="true" is to allow the items in the cells to be edited-->
+            <td contenteditable="true">Ken Thompson</td>
+            <td contenteditable="true">ken@unix.net</td>
+            <td contenteditable="true">United States</td>
+            <td contenteditable="true">6434030340</td>
+        </tr>
+        <tr>
+            <!--contenteditable="true" is to allow the items in the cells to be edited-->
+            <td contenteditable="true">Steve Jobs</td>
+            <td contenteditable="true">steve@apple.com</td>
+            <td contenteditable="true">United States</td>
+            <td contenteditable="true">805-110-9825</td>
+        </tr>
+        <tr>
+             <!--These are empty cells which are contenteditable so that they can be edited-->
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+        </tr>
+        <tr>
+             <!--These are empty cells which are contenteditable so that they can be edited-->
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+        </tr>
+        <tr>
+             <!--These are empty cells which are contenteditable so that they can be edited-->
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+        </tr>
+        <tr>
+             <!--These are empty cells which are contenteditable so that they can be edited-->
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+        </tr>
+        <tr>
+             <!--These are empty cells which are contenteditable so that they can be edited-->
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+            <td><div contenteditable=""></div></td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+<router-outlet></router-outlet>
