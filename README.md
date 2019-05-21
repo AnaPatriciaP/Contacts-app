@@ -1,6 +1,6 @@
 # contacts-app
 
-This is a contacts management app which allows you to edit, add and remove a contact
+This is a contacts management app which allows you to edit, add and remove contacts
 
 # setup
 
@@ -12,7 +12,7 @@ cd my-app
 
 ng serve
 
-and then copy and paste the code I provided and paste in the my-app > src > app > app.component.html 
+then copy and paste the code I provided into my-app > src > app > app.component.html 
 
 Then open a web browser http://localhost:4200/
 
